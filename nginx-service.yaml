@@ -9,6 +9,6 @@ spec:
   type: NodePort
   ports:
   - port: 80
-    NodePort: 3022
+    nodePort: 30225
   selector:
     app: nginx
